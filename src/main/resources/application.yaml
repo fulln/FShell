@@ -1,0 +1,13 @@
+config:
+  user: fulln
+  database:
+    name:
+      - local
+  project:
+    base-package: com.fulln
+    name: ${PROJECT_NAME}
+    current-module:
+      - dao
+      - biz
+      - api
+      - web

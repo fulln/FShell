@@ -18,6 +18,7 @@ dependencies {
 
     implementation(platform("org.springframework.shell:spring-shell-dependencies:3.1.2"))
     implementation("org.springframework.shell:spring-shell-starter")
+    implementation("org.projectlombok:lombok:1.18.26")
 
 }
 
